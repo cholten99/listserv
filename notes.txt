@@ -1,0 +1,18 @@
+* DIV fading and button disabling here : /home/bowsy/public_html/test/index.html
+* Don't forget learning-bootstrap
+* X-GM-RAW for gmail (via IMAP) searching
+* Interesting word-cloud : http://www.goat1000.com/tagcanvas.php
+* More on word-clouds : http://www.edudemic.com/9-word-cloud-generators-that-arent-wordle/
+
+TRY THIS FIRST : http://stackoverflow.com/questions/8175045/using-php-how-to-search-through-gmails-archived-emails
+
+
+Funky border (ideally glowy but this still pretty cool) :
+http://jsfiddle.net/thirtydot/Xuddz/
+
+For changing div contents use :
+
+$("#mySelector").animate({ height: 'toggle', opacity: 'toggle' }, 'slow');
+
+Except will need to use animate complete callback function to change
+the text before calling that line again.
